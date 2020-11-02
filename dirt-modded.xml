@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="co.linkpub.dirt" abstract="false" name="Dirt Modded" newsUrl="about:blank" version="1.16.3" serverAddress="hatcher.work" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Loader type="Forge" version="10.13.4.1448" loadOrder="0"/>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://williamhatcher.github.io/dirt-modded//AutoRegLib-1.6-46.jar</URL>
+			<Size>57070</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>afb4280c2d039cc432127f2571d2104b</MD5>
+			<Meta>
+				<license>https://github.com/Vazkii/AutoRegLib/blob/master/README.md</license>
+				<description>Automatically item, block, and model registration for mods.
+</description>
+				<version>1.6-46</version>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="CC: Tweaked" id="computercraft" depends="" side="BOTH">
+			<URL priority="0">https://williamhatcher.github.io/dirt-modded//cc-tweaked-1.16.3-1.93.1.jar</URL>
+			<Size>1832303</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1116c5febd7645ee80b0ce1c680ed71e</MD5>
+			<Meta>
+				<license>ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)</license>
+				<description>CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.
+</description>
+				<version>1.93.1</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
+			<URL priority="0">https://williamhatcher.github.io/dirt-modded//CookingForBlockheads_1.16.3-9.2.2.jar</URL>
+			<Size>656813</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9c2fecbdd69c555f7913638dc0484670</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.
+</description>
+				<version>${file.jarVersion}</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://williamhatcher.github.io/dirt-modded//ImmersiveEngineering-1.16.3-4.1.0-124.jar</URL>
+			<Size>8926848</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2cf2cb4a38f46ed525c2eeee92f9e409</MD5>
+			<Meta>
+				<license>Blu&apos;s License of Common Sense</license>
+				<description>A tech based mod focused on realism.</description>
+				<version>1.16.3-4.1.0-124</version>
+				<authors>BluSunrize and Damien A.W. Hazard</authors>
+			</Meta>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-10.13.4.1448" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">
+			<URL priority="0">https://williamhatcher.github.io/dirt-modded//Quark-r2.4-272.jar</URL>
+			<Size>5691322</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f4fbe5d613d431b08242dfcfef03d33</MD5>
+			<Meta>
+				<license>https://github.com/Vazkii/Quark/blob/master/LICENSE.md</license>
+				<description>Small things.
+</description>
+				<version>r2.4-272</version>
+				<authors>Vazkii, Wiiv, WireSegal, MCVinnyq</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
+			<URL priority="0">https://williamhatcher.github.io/dirt-modded//refinedstorage-1.9.8.jar</URL>
+			<Size>3131699</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>273d11615b5341d5e15e78fb5e9e3eb2</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>An elegant solution to your hoarding problem
+</description>
+				<version>1.9.8</version>
+				<authors>Refined Mods</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
